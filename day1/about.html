@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About QuickNotes</title>
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>About QuickNotes</h2>
+        <p>
+          QuickNotes is a simple app for writing down short notes so you never
+          forget an idea. It keeps everything in one place, where you can add
+          and read your notes at any time.
+        </p>
+      </section>
+
+      <section>
+        <h2>How to use QuickNotes</h2>
+        <ol>
+          <li>Open the Home page.</li>
+          <li>Type your note into the text box.</li>
+          <li>Click the Add Note button, or press Enter.</li>
+          <li>Read your notes in the Your notes list.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>Add a note in seconds</li>
+          <li>See all your notes in one list</li>
+          <li>Simple, distraction-free page</li>
+          <li>Works on phones and computers</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Keyboard shortcuts</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Shortcut</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Enter</td>
+              <td>Add the note</td>
+            </tr>
+            <tr>
+              <td>Ctrl + S</td>
+              <td>Save the file in VS Code</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Send feedback</h2>
+        <form id="feedback-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="bug">Report a bug</option>
+            <option value="idea">Suggest an idea</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <button type="submit">Send Feedback</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
+</html>
